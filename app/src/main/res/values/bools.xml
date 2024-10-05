@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="disableVlcAudio">false</bool>
+    <bool name="isLogoutEnabled">true</bool>
+    <bool name="sentryEnabled">true</bool>
+    <bool name="useVLC">false</bool>
+    <bool name="usedStalkerPortal">false</bool>
+</resources>

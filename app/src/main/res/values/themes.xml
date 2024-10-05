@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ПлюсТВ" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ПлюсТВ" parent="Base.Theme.ПлюсТВ" />
+
+    <style name="DialogTheme">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+
+    <style name="StbAppTheme">
+        <item name="android:colorBackground">@color/mainScreenBackgroundColor</item>
+        <item name="android:windowBackground">@color/mainScreenBackgroundColor</item>
+        <item name="android:dialogTheme">@style/DialogTheme</item>
+    </style>
+
+    <style name="SplashScreenTheme">
+        <item name="android:colorBackground">@color/splashScreenBackgroundColor</item>
+        <item name="android:windowBackground">@color/splashScreenBackgroundColor</item>
+    </style>
+
+</resources>
